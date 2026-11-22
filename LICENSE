@@ -1,0 +1,30 @@
+T-42 skills: licence notice
+
+Copyright (c) 2026 T-42. All rights reserved.
+This is not an open-source licence.
+
+This notice covers the files in this repository, including registry.json but
+not THIRD-PARTY-NOTICES.txt, and the skill packages in its releases (each
+program and its skill.yaml manifest).
+
+You may use them free of charge with T-42, on any computer you are allowed to
+use. This includes letting T-42 download, unpack, install, update, store and
+run them, and the changes T-42 makes to an installed skill, including through
+its settings.
+
+You may not otherwise copy, modify, reverse-engineer, redistribute, sell or
+sublicense them, or use them outside T-42. This does not limit what the law
+allows regardless of this notice, such as keeping a back-up copy, or what
+GitHub's Terms of Service allow GitHub users to do with this repository on
+GitHub, such as viewing and forking it.
+
+The packages include open-source components. Each stays under its own licence,
+listed with its notices in THIRD-PARTY-NOTICES.txt, in this repository and in
+every package. This notice does not restrict your rights under those licences.
+
+They are provided "as is", without warranty of any kind, and the copyright
+holder is not liable for any damage arising from their use. This does not
+exclude or limit liability for death or personal injury caused by negligence,
+for intentional or grossly negligent harm, or under product-liability law, nor
+any other liability or consumer right that the law does not allow to be
+excluded or limited.

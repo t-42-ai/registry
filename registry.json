@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "updated": "2026-11-22",
+  "skills": [
+    {
+      "id": "core.google.workspace",
+      "name": "Google Workspace",
+      "description": "Calendar, Gmail, Drive, Sheets, Docs, Tasks, People, Chat",
+      "version": "0.3.0",
+      "min_core_version": "0.1.0",
+      "category": "productivity",
+      "subcategory": "google",
+      "requires_oauth": "google",
+      "recommended": true,
+      "network_domains": [
+        "*.googleapis.com"
+      ],
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-core-google-workspace-darwin-arm64.tar.gz",
+          "sha256": "429597fc0b7ed012bf7e150ff9fdad18a50ba1c509bde5654d1bb0cafd3a0bcc"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-core-google-workspace-darwin-x86_64.tar.gz",
+          "sha256": "cf0dd7d134a2e504d0e18bae7f2a0ee68552b2ed8af8eba18b73abcdb33722a2"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-core-google-workspace-linux-x86_64.tar.gz",
+          "sha256": "f9ef3d0f6cac5dbb702ba3baa9429c59fbd40b0913306153c2a2ecf99d3b6d99"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-core-google-workspace-linux-aarch64.tar.gz",
+          "sha256": "ed96d69b3106b8e24dc29ce480e74fb09a1794133628d7fa77c6f48be166d395"
+        }
+      }
+    },
+    {
+      "id": "data.analyze",
+      "name": "Data Analyze",
+      "description": "CSV, Excel, JSON — summarize, filter, sort, pivot",
+      "version": "0.2.0",
+      "min_core_version": "0.1.0",
+      "category": "data",
+      "subcategory": "analysis",
+      "recommended": true,
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-analyze-darwin-arm64.tar.gz",
+          "sha256": "8688cac2f3426dbfbbf66586eb90c2099485fd45acb420c74ee750db332cb2f9"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-analyze-darwin-x86_64.tar.gz",
+          "sha256": "f744d6186ca5177b464165be2ab9b988f4deecb25ebf26d9d8b950a5194434ca"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-analyze-linux-x86_64.tar.gz",
+          "sha256": "4a06228e93623fa184b17cbbfc1bf6d164cfb847d4f6ed40f40c9042464a72ae"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-analyze-linux-aarch64.tar.gz",
+          "sha256": "28c482f63fb72f54fa35dfefe59a99a645f829e2e651f0e663f4b4c6cdd49985"
+        }
+      }
+    },
+    {
+      "id": "data.visualize",
+      "name": "Charts",
+      "description": "Bar, line, pie, scatter charts from your data",
+      "version": "0.2.0",
+      "min_core_version": "0.1.0",
+      "category": "data",
+      "subcategory": "visualization",
+      "recommended": true,
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-visualize-darwin-arm64.tar.gz",
+          "sha256": "7a48aa77759f42ebbb4adec646c63f677512f390d915442e215a1c2b0a6e4517"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-visualize-darwin-x86_64.tar.gz",
+          "sha256": "4f88c0c0177fdf0635c07745d58a283027d2a629269de431282bd86f5986c450"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-visualize-linux-x86_64.tar.gz",
+          "sha256": "b64760efbd4a658bb0daada437aae8618239d994f133693c006adf0f38f538c9"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-data-visualize-linux-aarch64.tar.gz",
+          "sha256": "4714726dc2876922eddc7a24d3cebcc1b85bdc3fc00d170a3aabb93c339d1715"
+        }
+      }
+    },
+    {
+      "id": "doc.create",
+      "name": "Documents",
+      "description": "Create PDF, DOCX, HTML from markdown",
+      "version": "0.2.0",
+      "min_core_version": "0.1.0",
+      "category": "productivity",
+      "subcategory": "documents",
+      "recommended": true,
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-doc-create-darwin-arm64.tar.gz",
+          "sha256": "5dcb9e1e3ba5014695b94209d44f8b99a526c1388f87e98da09456293ff715bd"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-doc-create-darwin-x86_64.tar.gz",
+          "sha256": "a5ea7d9172d969f803cd5c718a1d3c8ed2e4c530e6e0d8b482c1fea32aca789c"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-doc-create-linux-x86_64.tar.gz",
+          "sha256": "b108810c04b4939e38537cc622d6924277f84e562534c78e0ea251186f262e49"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-doc-create-linux-aarch64.tar.gz",
+          "sha256": "2a571c36c962c172dd68e5558c2178691f59b2f864a997ee599c4536754d4148"
+        }
+      }
+    },
+    {
+      "id": "scheduler",
+      "name": "Scheduler",
+      "description": "Reminders, recurring tasks, time-based triggers",
+      "version": "0.2.0",
+      "min_core_version": "0.1.0",
+      "category": "productivity",
+      "subcategory": "scheduling",
+      "recommended": true,
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-scheduler-darwin-arm64.tar.gz",
+          "sha256": "2630ca6a7b697be92e9503b3a9e5cb7605928eb69e1fd171269e9d4aed2bab6e"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-scheduler-darwin-x86_64.tar.gz",
+          "sha256": "ac6a7c4fc591e792a3e08c68ad2377559964fc151f5b5ddc4b989f2786bea62f"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-scheduler-linux-x86_64.tar.gz",
+          "sha256": "46b32588754a79863d7b0ec7809199cd11ae6e71620e1b2fcf412240edb5f8dd"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-scheduler-linux-aarch64.tar.gz",
+          "sha256": "d1b8edf1f9e671cbd8000f35789185c9e48795c9e21bbd059924f9a844a30024"
+        }
+      }
+    },
+    {
+      "id": "notify",
+      "name": "Notifications",
+      "description": "Push notifications via ntfy.sh or Pushover",
+      "version": "0.2.0",
+      "min_core_version": "0.1.0",
+      "category": "communication",
+      "subcategory": "notifications",
+      "recommended": false,
+      "network_domains": [
+        "ntfy.sh",
+        "api.pushover.net"
+      ],
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-notify-darwin-arm64.tar.gz",
+          "sha256": "8f93f663ad9214a6ab74df0c9f2bdfe6492ac48af5e0b2b2678d328a8b600b9a"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-notify-darwin-x86_64.tar.gz",
+          "sha256": "346569060dcf9d078fd53c912b40402bdb5754998965410e5d74d2c7e1a1a712"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-notify-linux-x86_64.tar.gz",
+          "sha256": "e73f6e3d04dead5dc3eb8d99487e6b94dca1a98a65dec9426bd75af3e7d9a808"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-notify-linux-aarch64.tar.gz",
+          "sha256": "2dd7e2a8aaae742bddf7709be991e0695a14a0996d16c6f91ade53e34bddd3a7"
+        }
+      }
+    },
+    {
+      "id": "summarize",
+      "name": "Summarize",
+      "description": "Summarize URLs, files, or text into structured digests",
+      "version": "0.2.0",
+      "min_core_version": "0.1.0",
+      "category": "productivity",
+      "subcategory": "content",
+      "recommended": true,
+      "network_domains": [
+        "*"
+      ],
+      "platforms": {
+        "darwin-arm64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-summarize-darwin-arm64.tar.gz",
+          "sha256": "322afd5da35ba6aa82dbbbbbd50906ea623575577e447c5bbba23e1565f902ee"
+        },
+        "darwin-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-summarize-darwin-x86_64.tar.gz",
+          "sha256": "0f4a167bbbb021dba1c96af3ecf37f3e0cc0edbf22c6866ea9aa566182c539d1"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-summarize-linux-x86_64.tar.gz",
+          "sha256": "629c1a4c2dd7c4e6d0bfa2c79895ae8d5db4e67d4fbbbbdb3fd07d04829cde3e"
+        },
+        "linux-aarch64": {
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261122-5/t42-skill-summarize-linux-aarch64.tar.gz",
+          "sha256": "57cee5305a4c76c6ab5b5f3740c1065859118242cf9d1d0ca7001417c8eff685"
+        }
+      }
+    }
+  ]
+}

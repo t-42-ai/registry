@@ -11,15 +11,18 @@ You don't need to download anything here by hand: install skills from inside T-4
 
 ## Skills
 
-| Skill | What it does |
-|-------|--------------|
-| `core.google.workspace` | Calendar, Gmail, Drive, Sheets, Docs, Tasks, People and Chat, through one Google sign-in |
-| `data.analyze` | CSV, Excel, JSON: summarize, filter, sort, pivot |
-| `data.visualize` | Bar, line, pie and scatter charts from your data |
-| `doc.create` | PDF, DOCX and HTML from Markdown |
-| `scheduler` | Reminders, recurring tasks, time-based triggers |
-| `notify` | Push notifications through ntfy.sh or Pushover |
-| `summarize` | Summaries of web pages, files or text |
+| Skill | What it does | Your files | Internet | Sign-in | Keys it can use |
+|-------|--------------|------------|----------|---------|-----------------|
+| `core.google.workspace` | Calendar, Gmail, Drive, Sheets, Docs, Tasks, People, Chat | No | `*.googleapis.com` | Google | None |
+| `data.analyze` | CSV, Excel, JSON — summarize, filter, sort, pivot | Folders you share with T-42 | No | No | None |
+| `data.visualize` | Bar, line, pie, scatter charts from your data | Folders you share with T-42 | No | No | None |
+| `doc.create` | Create PDF, DOCX, HTML from markdown | Folders you share with T-42 | No | No | None |
+| `scheduler` | Reminders, recurring tasks, time-based triggers | Folders you share with T-42 | No | No | None |
+| `notify` | Push notifications via ntfy.sh or Pushover | No | `ntfy.sh`, `api.pushover.net` | No | `PUSHOVER_USER_KEY`, `PUSHOVER_APP_TOKEN` |
+| `summarize` | Summarize URLs, files, or text into structured digests | Folders you share with T-42 | Any public site | No | None |
+
+"Your files" and "Internet" are what T-42's sandbox lets each skill reach; "Keys it can use"
+are the keys a skill reads when you set them in T-42, some only for one of its services.
 
 Each skill is built for macOS (Apple Silicon and Intel) and Linux (x86-64 and ARM64).
 

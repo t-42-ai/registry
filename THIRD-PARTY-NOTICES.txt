@@ -1,4 +1,4 @@
-Open-source components in the T-42 skill packages of skills-20261122-5.
+Open-source components in T-42's skill packages, as built from the current source.
 Each package also carries its own copy of its section.
 
 ################################################################################

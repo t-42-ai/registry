@@ -16,7 +16,7 @@ You don't need to download anything here by hand: install skills from inside T-4
 | `core.google.workspace` | Calendar, Gmail, Drive, Sheets, Docs, Tasks, People, Chat | No | `*.googleapis.com` | Google | None |
 | `data.analyze` | CSV, Excel, JSON — summarize, filter, sort, pivot | Folders you share with T-42 | No | No | None |
 | `data.visualize` | Bar, line, pie, scatter charts from your data | Folders you share with T-42 | No | No | None |
-| `doc.create` | Create PDF, DOCX, HTML from markdown | Folders you share with T-42 | No | No | None |
+| `doc.create` | Create PDF, Word and HTML from Markdown or text | Folders you share with T-42 | No | No | None |
 | `scheduler` | Reminders, recurring tasks, time-based triggers | Folders you share with T-42 | No | No | None |
 | `notify` | Push notifications via ntfy.sh or Pushover | No | `ntfy.sh`, `api.pushover.net` | No | `PUSHOVER_USER_KEY`, `PUSHOVER_APP_TOKEN` |
 | `summarize` | Summarize URLs, files, or text into structured digests | Folders you share with T-42 | Any public site | No | None |

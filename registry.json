@@ -94,27 +94,27 @@
       "id": "doc.create",
       "name": "Documents",
       "description": "Create PDF, Word and HTML from Markdown or text",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "min_core_version": "0.1.0",
       "category": "productivity",
       "subcategory": "documents",
       "recommended": true,
       "platforms": {
         "darwin-arm64": {
-          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-9/t42-skill-doc-create-darwin-arm64.tar.gz",
-          "sha256": "17779449bd93e1bc4650950ad2d4ab8a9446742a91a2dd9d1c2eca52125cf1d6"
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-10/t42-skill-doc-create-darwin-arm64.tar.gz",
+          "sha256": "1ae4e12f15c292689f8a9abc448fc4af2186c82a36e8b0903ccc1dc9dc30fac9"
         },
         "darwin-x86_64": {
-          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-9/t42-skill-doc-create-darwin-x86_64.tar.gz",
-          "sha256": "a77cfc3fec51393f7fe6d78f23d39c0ff07679fbabdc890b70aea5007e4ee48b"
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-10/t42-skill-doc-create-darwin-x86_64.tar.gz",
+          "sha256": "dd180969d73851190974c2f40a856c1251da282e19b3aa94cde79a3ee95d6e0f"
         },
         "linux-x86_64": {
-          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-9/t42-skill-doc-create-linux-x86_64.tar.gz",
-          "sha256": "695066390ffa5394e9a9f29d0bcad19888dace53f6bbb7bb358f4e436e46591a"
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-10/t42-skill-doc-create-linux-x86_64.tar.gz",
+          "sha256": "e66d2b72bd33052e1ae6dbd7a63c5434511a9d86284a3fde9608ec3f00538ff1"
         },
         "linux-aarch64": {
-          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-9/t42-skill-doc-create-linux-aarch64.tar.gz",
-          "sha256": "af483b0eabe4d42799dc44fd76ac3ce7fadd98f21bd4febac0c4078b84031676"
+          "url": "https://github.com/t-42-ai/registry/releases/download/skills-20261123-10/t42-skill-doc-create-linux-aarch64.tar.gz",
+          "sha256": "31c1e8f5f4e5335624647874faf192fad36f7e77537d071de9f15a959dcd4ef8"
         }
       }
     },

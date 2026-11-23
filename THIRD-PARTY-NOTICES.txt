@@ -4213,7 +4213,7 @@ the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 
 ################################################################################
-t42-skill-doc-create 0.3.0
+t42-skill-doc-create 0.3.1
 The open-source components below are compiled into this package. Each stays under its own
 licence, given in full with its copyright lines. T-42's LICENSE does not restrict your rights
 under these licences.
